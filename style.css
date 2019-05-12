@@ -1,0 +1,518 @@
+/* generic styles */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Geogia Regular';
+}
+
+.container{
+    background: #252525;
+    padding: 0px !important;
+
+}
+
+.container {
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+    }
+
+/* generic styles end*/
+
+nav{
+    background: #3f3f3f;
+    padding: 15px 10px;
+    min-height: 75px;
+}
+
+nav ul{
+    padding: 0;
+    list-style: none;
+}
+
+.social-icons{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons li {
+    margin-top: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #b8b8b8;
+    display: block;
+}
+
+nav .left-menu li{
+    padding: 10px 17px;
+}
+
+nav li{
+    text-align: center;
+}
+
+dl, ol, ul {
+    margin-bottom: 0px !important;
+}
+
+.left-menu a:hover {
+    color: #b8b8b8 !important;
+    text-decoration: none !important;
+}
+
+.social-icons a:hover {
+    color: #fff !important;
+    text-decoration: none !important;
+}
+
+.active{
+    color: #ff9900;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 10px;
+    text-align: center;
+    text-decoration: none;
+    margin: 0px 7px;
+    border-radius: 50%;
+    /* height: 5px; */
+    box-sizing: content-box !important;
+  }
+  
+  .fa:hover {
+      background: #ff9900;
+  }
+
+  .fa-twitter {
+    background: #252525;
+    color: white;
+  }
+  
+  .fa-google {
+    background: #252525;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #252525;
+    color: white;
+  }
+  
+  .fa-pinterest {
+    background: #252525;
+    color: white;
+  }
+  
+  .fa-rss {
+    background: #252525;
+    color: white;
+  }
+
+.header-border{
+    height: 6px;
+    border-bottom: 2px solid #303030;
+    background: #252525;
+}
+
+.header{
+    background: #252525;
+    height: 113px;
+    padding: 30px 22px;
+}
+
+#banner{
+    width: 100%;
+}
+
+#logo {
+    font-size: 46px;
+    font-family: "Georgia";
+    color: rgb(255, 255, 255);
+  }
+
+  form.form-inline {
+    margin-top: 10px!important;
+}
+  
+  input.form-control.mr-sm-2 {
+    color: #7f7f7f !important;
+    border-radius: 0px !important;
+    height: 29px !important;
+    font-size: 12px !important;
+    font-family: 'georgia' !important;
+    background: #363636 !important;
+    border: none !important;
+    margin-right: 0px !important;
+}
+
+button.btn.btn-primary.my-2.my-sm-0 {
+    border-radius: 0px !important;
+    background: #ff9900 !important;
+    text-transform: uppercase;
+    font-size: 12px !important;
+    font-family: 'Georgia' !important;
+    height: 29px !important;
+    border: none !important;
+    color: #fff;
+}
+
+.orange-border{
+    background-color: #ff9900;
+    height: 15px;
+    color: #ff9900;
+}
+
+.orange-border span{
+    background: #f0f0f0;
+    color: #f0f0f0;
+}
+
+body .orange-border {
+    line-height: 1 !important;
+}
+
+main{
+    height: 1061px;
+    background: #f0f0f0;
+    padding: 0 20px;
+    padding-top: 11px;
+}
+
+main a:hover {
+    color: #b8b8b8 !important;
+    text-decoration: none !important;
+}
+
+main span{
+    color: #ff9900;
+}
+
+main p{
+    margin-left: 47px;
+    margin-top: 21px;
+    font-family: 'georgia regular' !important;
+    font-size: 12px;
+}
+
+.main-content{
+    height: 995px;
+    background-color: #fff;
+    padding-top: 49px;
+}
+
+.quote {
+    font-size: 28px;
+    font-family: "Georgia";
+    color: rgb(152, 152, 152);
+    line-height: 1;
+    text-align: center;  
+  }
+
+  .small-border{
+    border-top: 1px solid #e1e1e1;
+    margin: 50px 27px;
+  }
+  
+.main-content2{
+    height: 320px;
+    background-color: #fff;
+    margin: 0 20px;
+}
+
+.title {
+    font-size: 86px;
+    font-family: "Georgia";
+    color: rgb(221, 221, 221);
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+.about-us {
+    font-size: 22px;
+    font-family: "Georgia";
+    color: rgb(102, 102, 102);
+    margin: 0px;
+  }
+
+.marks{
+    float: left;
+    margin-right: 15px;
+}
+
+div#team {
+    padding: 0px 30px;
+}
+
+.content-font{
+    font-size: 16px;
+    font-family: 'Geogia Regular';
+}
+
+.content-font2{
+    font-size: 13px;
+    color: #999999;
+    font-family: 'Geogia Regular';
+}
+
+.content-font4{
+    font-size: 13px;
+    color: #999999;
+    font-family: 'Geogia Regular';
+    margin-left: 0 !important;
+}
+
+.content-font3{
+    font-size: 13px;
+    color: #ff9900;
+    font-family: 'Geogia Regular';
+    margin-left: 0;
+}
+
+.picture{
+    float: left;
+    margin-right: 15px;
+}
+
+div#content-row2 {
+    margin-top: 30px;
+}
+
+.picture2{
+    width: 100%;
+}
+
+div#lwork {
+    padding: 0px 30px;
+}
+
+.twitter-text{
+        font-size: 18px;
+        font-family: "Georgia";
+        color: rgb(153, 153, 153);
+        line-height: 1.4;
+}
+
+div#tw {
+    padding: 0px 40px;
+    margin-top: 35px;
+}
+
+footer{
+    height: 310px;
+    background: #252525;
+}
+
+footer a:hover {
+    color: #b8b8b8 !important;
+    text-decoration: none !important;
+}
+
+.footer-content {
+    font-size: 13px;
+    font-family: "Georgia";
+    color: rgb(102, 102, 102);
+    text-transform: uppercase;
+  }
+  
+.footer-content2 {
+    font-size: 12px;
+    font-family: "Georgia";
+    color: rgb(134, 134, 134);
+}
+ 
+.footer-content3 {
+    font-size: 12px;
+    font-family: "Georgia";
+    color: rgb(255, 153, 10);
+  }
+
+#quick-links .footer-content3 {
+    border-bottom: 0.09px solid rgb(72, 72, 72);
+  }
+
+#read-more{
+    float: right;
+}
+
+footer input{
+    background: #333333;
+    color: #ff9900;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    height: 30px;
+    padding: 0 10px;
+    width: 100%;
+}
+
+footer input[type=submit]{
+    text-transform: uppercase;
+    width: 90px;
+    font-size: 13px;
+    font-family: 'georgia';
+    cursor: pointer;
+}
+
+div#footer-row {
+    padding: 29px 25px;
+}
+
+.copyright{
+    background: #000;
+    height: 60px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 25px;
+}
+
+@media screen and (min-width: 768px){
+    .left-menu{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+
+    nav{
+        display: -webkit-boxflex !important;
+        display: -ms-flexboxflex !important;    
+        display: flex !important;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+    }
+
+    .left-menu li:nth-child(2) {
+        border-left: 1px solid #b8b8b8;
+    }
+    .left-menu li:nth-child(3) {
+        border-left: 1px solid #b8b8b8;
+    }
+    .left-menu li:nth-child(4) {
+        border-left: 1px solid #b8b8b8;
+    }
+    .left-menu li:nth-child(5) {
+        border-left: 1px solid #b8b8b8;
+    }
+    .left-menu li:nth-child(6) {
+        border-left: 1px solid #b8b8b8;
+    }
+}
+
+@media (min-width: 1200px){
+.container {
+    max-width: 1000px !important;
+ }
+}
+
+@media screen and (max-width: 767px){
+    .header{
+        height: 190px;
+    }
+    .title {
+        font-size: 46px;
+      }
+    .quote{
+        font-size: 15px;
+    }
+    p.quote {
+        margin-right: 35px;
+    }
+    
+    #meet-team{
+        margin-top:115px;
+    } 
+
+    .main-content2 {
+        height: 1745px;
+    }
+
+    footer {
+        height: 910px;
+    }
+
+    #footer-row{
+        text-align: center;
+    }
+
+    .footer-content {
+        margin-top: 25px;
+        font-weight: bold;
+      }
+
+
+
+}
+
+@media screen and (width: 768px){
+    .main-content2 {
+        height: 445px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 991px){
+    .main-content2 {
+        height: 445px;
+    }
+
+    footer{
+        height: 345px;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 469px){
+    .main-content2 {
+        height: 1875px;
+    }
+}
+
+@media screen and (min-width: 530px) and (max-width: 767px){
+    .main-content2 {
+        height: 1775px;
+    }
+}
+
+@media screen and (min-width: 360px) and (max-width: 498px){
+    .main-content2 {
+        height: 1895px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 359px){
+    .main-content2 {
+        height: 2195px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    #burger-nav{
+        width: 100%;
+        height: 40px;
+        background: url(images/burger.png) no-repeat 98% center;
+        cursor: pointer;
+    }
+    
+    nav ul{
+        height: 0;
+        overflow: hidden;
+    }
+    
+    nav ul.open{
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 992px){
+    nav {
+        display: block !important;
+    }
+}
